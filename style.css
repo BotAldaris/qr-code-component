@@ -41,9 +41,11 @@ body {
 .card__title {
   color: var(--Dark-blue);
   font-size: 1.5rem;
+  padding: 0% 2.5%;
 }
 .card__text {
   color: var(--Grayish-blue);
+  padding: 0% 2.5%;
 }
 .attribution {
   text-align: center;
@@ -57,4 +59,13 @@ body {
 
 .attribution a {
   color: white;
+}
+
+@media (min-width: 400px) {
+  .card__title {
+    padding: 0% 5%;
+  }
+  .card__text {
+    padding: 0% 5%;
+  }
 }
